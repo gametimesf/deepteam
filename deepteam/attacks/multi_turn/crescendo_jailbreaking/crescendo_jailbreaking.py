@@ -330,6 +330,7 @@ class CrescendoJailbreaking(BaseAttack):
     async def a_generate_attack(
         self, round_num: int, eval_score: bool, last_response: str
     ) -> str:
+        print('%!%!% IN GT FORK GENERATING ATTACK! %!%!%')
         if round_num == 1:
             prompt_text = (
                 "This is the first round. Generate the first question in the series of questions you need to ask "
